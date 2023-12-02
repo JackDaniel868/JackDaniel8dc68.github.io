@@ -1,85 +1,43 @@
 body {
-  background-image: url("img/Fondo.jpg");
-}
-section {
-  margin: 20px;
-  padding: 10px;
-  background-color: #ffffff00;
-  border-radius: 10px;
-}
-h2 {
-  color: #ff69b4;
-}
-article {
-  margin-bottom: 20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    transition: background-color 1s ease;
 }
 
-body {
-  background-color: #ffebcd00; /* fondo naranja claro */
-  background: url(img/Fondo.jpg);
-  background-size: cover;
-}
-h1 {
-  text-align: center; /* centra el texto */
-  margin-top: 80px; /* añade un margen superior para separar del fondo */
+.container {
+    text-align: center;
+    padding: 50px;
 }
 
-
-
-h2 {
-  text-align: center; /* centra el texto */
-  font-size: 30px; /* tamaño de letra grande para resaltar */
-  margin-top: 60px; /* añade un margen superior para separar del fondo */
-}
-.poema {
-  font-size: 30px; /* tamaño de letra grande para resaltar */
-  text-align: center; /* centra el texto */
-  margin-top: 60px; /* añade un margen superior para separar del título */
-}
-#video1, #video2 {
-  width: 30%; /* ancho de los videos laterales */
-  float: left; /* hace que los videos aparezcan a la izquierda */
-  margin-right: 10%; /* añade un margen derecho para separar los videos */
+.center-text {
+    color: white;
 }
 
-#video3 {
-  width: 30%; /* ancho del video central */
-  margin: 0 auto; /* centra el video en la página */
-}
-section {
-  background-color: rgba(255,255,255,0.5);
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 10px;
+.corner-images {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    padding: 20px;
 }
 
-
-body {
-  background-image: url("img/Fondo.jpg");
+.corner-images img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
-section {
-  margin: 20px;
-  padding: 10px;
-  background-color: #ffffff00;
-  border-radius: 10px;
+
+.top {
+    position: fixed;
+    top: 0;
+    left: 0;
 }
-h2 {
-  color: #ff69b4;
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
-article {
-  margin-bottom: 20px;
-
-  }    
-
-
-  hr {
-    border: none;
-    border-top: 2px solid red; /* Cambia "red" al color deseado */
-  }
-
-  .ajustar-margen {
-    float: right;
-    margin-right: 5px; /* Ajusta este valor según tus necesidades */
-  }
-  
-
